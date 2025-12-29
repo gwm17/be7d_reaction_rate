@@ -22,8 +22,8 @@ A fit of the total nominal reaction rate was performed with a two part Reaclib p
 The function is as follows:
 
 $$
-\lambda = exp\left[a0 + \sum^{5}_{i=1}ai T_9^{\frac{2i-5}{3}} + a6ln(T_9)\right] + 
-exp\left[a7 + \sum^{12}_{i=8}ai T_9^{\frac{2(i-7)-5}{3}} + a13ln(T_9)\right]
+\lambda = exp\left[a_0 + \sum^{5}_{i=1}a_i T_9^{\frac{2i-5}{3}} + a_6ln(T_9)\right] + 
+exp\left[a_7 + \sum^{12}_{i=8}a_i T_9^{\frac{2(i-7)-5}{3}} + a_{13}ln(T_9)\right]
 $$
 
 The values of the $ai$ constants are given in the file reaclib.txt with uncertainties
